@@ -9,7 +9,7 @@ const styles = {
     position: 'fixed',
     top: 0,
     left: 0,
-    zIndex: -1,
+    // zIndex: -1,
     backgroundColor: '#000000'
   }
 }

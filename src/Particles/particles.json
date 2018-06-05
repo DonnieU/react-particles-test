@@ -1,1 +1,33 @@
-{"particles":{"number":{"value":500},"color":{"value":"#ffffff"},"line_linked":{"enable":true,"distance":100,"color":"#0000ee","opacity":0.7,"width":2}}}
+{
+  "particles":
+  {
+    "number": { "value":500 },
+    "color": { "value":"#ffffff" },
+    "size": { "value": 5 },
+    "line_linked":
+    {
+      "enable":false,
+      "distance":150,
+      "color":"#0000ee",
+      "opacity":0.7,
+      "width":2
+    },
+    "move":
+    {
+      "enable": true, "speed": 5, "bounce": true
+    }
+  },
+  "interactivity":
+  {
+    "detect_on": "canvas",
+    "events":
+    {
+      "onhover": { "enable": true, "mode": "repulse" },
+      "onclick": { "enable": true, "mode": "bubble"},
+      "resize": true
+    },
+    "modes": {
+      "repulse": { "distance": 150, "duration": 0.4 }
+    }
+  }
+}
